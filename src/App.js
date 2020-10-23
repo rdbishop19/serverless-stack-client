@@ -28,9 +28,11 @@ function App() {
 
     setIsAuthenticating(false);
   }
-	const handleLogout = () => {
-		userHasAuthenticated(false);
-	};
+  async function handleLogout() {
+    await Auth.signOut();
+  
+    userHasAuthenticated(false);
+  }
 
   return (
     !isAuthenticating &&
