@@ -5,7 +5,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 import './App.css';
 
 import Routes from './Routes';
-import { AppContext } from './libs/contextLibs';
+import { AppContext } from './libs/contextLib';
 import { onError } from './libs/errorLib';
 import { Auth } from "aws-amplify";
 
