@@ -1,5 +1,6 @@
 export default {
     MAX_ATTACHMENT_SIZE: 5000000,
+    STRIPE_KEY: "pk_test_51HfE0HJ4jumlVfD4Le5RT6gQkc7p7Lb6L0lFbe1or4167R3rgk5meXI7KabNHZk8znf3EEZ63rm3CnbuoApRlHx500IUJOhe5F",
     s3: {
       REGION: "us-east-2",
       BUCKET: "rdb-serverless-notes-upload"
